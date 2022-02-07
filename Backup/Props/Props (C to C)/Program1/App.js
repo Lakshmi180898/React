@@ -1,11 +1,12 @@
 import React from 'react';
 import CompA from './CompA';
 
-let App = () => {
-    return <div>
-        <h1>PROPS Example</h1>
-        <hr />
+class App extends React.Component{
+    render()
+    {
+        return<>
         <CompA/>
-    </div>
+        </>
+    }
 }
 export default App;
