@@ -1,13 +1,12 @@
 import React from 'react';
-import ListRendering from '../Backup/State/LIST RENDERING/ListRendering'
-
+import ShortCircuit from '../Backup/State/CONDITIONAL RENDERING/Short Circuit Operator/ShortCircuit'
 
 
 class App extends React.Component{
     render()
     {
         return<>
-       <ListRendering/>
+       <ShortCircuit/>
         </>
     }
 }

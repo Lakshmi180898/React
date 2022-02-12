@@ -1,13 +1,12 @@
 import React from 'react';
-import ListRendering from '../Backup/State/LIST RENDERING/ListRendering'
-
+import Ternary from '../Backup/State/CONDITIONAL RENDERING/Ternary Operator/Ternary';
 
 
 class App extends React.Component{
     render()
     {
         return<>
-       <ListRendering/>
+       <Ternary/>
         </>
     }
 }
