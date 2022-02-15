@@ -1,5 +1,5 @@
 import React from 'react';
-import User from '../Backup/AXIOS/USER2/User'
+import User from './User'
 class App extends React.Component{
     render()
     {

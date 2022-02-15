@@ -1,10 +1,10 @@
 import React from 'react';
-import User from '../Backup/AXIOS/USER2/User'
+import USER from '../Backup/AXIOS/USER'
 class App extends React.Component{
     render()
     {
         return<div>
-       <User/>
+       <USER/>
         </div>
     }
 }
