@@ -1,3 +1,4 @@
+//TO PRINT USER DATA IN JSON.
 import React, { Component } from 'react'
 import Axios from 'axios';
 class USER extends Component {

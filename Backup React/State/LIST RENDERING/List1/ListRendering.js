@@ -1,4 +1,5 @@
-import React from 'react'
+
+ import React from 'react'
 
 class ListRendering extends React.Component{
 
@@ -12,10 +13,16 @@ class ListRendering extends React.Component{
     {
         return(<>
         
-        {this.Name.map(names => (<h1>{names}</h1>) )}
+        {this.Name.map(names => (
+        <h1>{names}</h1>
+        ) 
+        )}
         
         
-        {this.Age.map(age => (<h3>{age}</h3>) )}
+        {this.Age.map(age => (
+        <h3>{age}</h3>
+        )
+        )}
 
 
         </>);
