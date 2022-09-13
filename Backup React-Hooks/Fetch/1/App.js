@@ -1,5 +1,5 @@
 import React from 'react'
-import Axxios from './Axxios'
+import Fetch from './Fetch'
 
 
 
@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
       
-  <Axxios/>
+  <Fetch/>
     </div> 
   )
 }

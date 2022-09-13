@@ -1,5 +1,5 @@
 import React from 'react'
-import Axxios from './Axxios'
+import Form from './Form'
 
 
 
@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
       
-  <Axxios/>
+  <Form/>
     </div> 
   )
 }
