@@ -1,15 +1,12 @@
 import React from 'react'
-import Axxios from './Axxios'
+import UseEffectAPI from './UseEffectAPI'
 
-
-
-
+import'./App.css'
 const App = () => {
   return (
     <div>
-      
-  <Axxios/>
-    </div> 
+     <UseEffectAPI/>
+    </div>
   )
 }
 
