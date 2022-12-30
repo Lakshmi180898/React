@@ -27,7 +27,7 @@ const Githubusers = ({users}) => {
                        <h4 className="mb-0 mt-0 textLeft">{login}</h4> 
                        <span className="text-left">{type }</span>
 
-                       <div className="p-2 mt-2 bg-primary d-md-flex justify-content-between rounded text-white">
+                       <div className="p-15 mt-15 bg-primary d-md-flex justify-content-between rounded text-white">
                        <div className="d-flex flex-column">
                              <span>Articles</span>
                              <span>38</span>
